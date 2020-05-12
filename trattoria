@@ -189,6 +189,7 @@ public class Calculator extends JFrame implements ActionListener {
      */
     private void handleNumber(String key) {
         if (firstDigit) {
+		//branch1 
             // 输入的第一个数字
             resultText.setText(key);
         } else if ((key.equals(".")) && (resultText.getText().indexOf(".") < 0)) {
